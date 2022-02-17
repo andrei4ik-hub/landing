@@ -1,0 +1,233 @@
+@import url(reset.css);
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h2 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.container {
+    width: 1340px;
+    margin: 0px auto;
+}
+
+.nav {
+    margin-top: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+    color:#000;
+}
+
+.logo span {
+    color: #939393;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu_btn {
+    list-style-type: none;
+    padding-right: 35px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.firstScreen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.letTalk__text {
+    border: 2px solid #263238;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 17px 57px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.leftScreen {
+    margin-top:100px;
+    max-width: 632px;
+}
+
+.leftScreen__Hypertext {
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.leftScreen__text {
+    margin: 40px 0px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8F95A5;
+
+}
+
+.leftScreen__bigBtn {
+    height: 118px;
+    width: 438px;
+    left: 129px;
+    top: 675px;
+    border-radius: 15px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+
+.leftScreen__bigA {
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+
+    
+}
+
+.secondScreen {
+    margin-top: 147px;
+}
+
+.mainTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+
+.bloksOfContent {
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.contentInBlock {
+    width: 350px;
+    margin: 0 43px;
+}
+
+.textInBlock {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8F95A5;
+    
+}
+
+.btnSpeaking {
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #263238;
+    padding: 17px 57px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+
+.speakingBtn {
+    padding-top:53px;
+    padding-bottom: 71px;
+}
+
+
+.btn {
+    padding-top: 48px;
+
+}
+
+.writingBlock {
+    max-height: 531px;
+}
+
+.flexForImage {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nedoH3 {
+    line-height: 80px;
+}
+
+.readingBlock {
+    max-height: 531px;
+}
+
+.flexForImage2 {
+    display: flex;
+    justify-content: flex-start;
+}
